@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imgui_draw.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1616ab3a86ec2719a2f2a37f23f396406bd61a70ea1637d433f2e0cb4317eac9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "5dcfaf6e9a1340e5b4d5725b25372d80322e7615c42fd35bdebc24d814e0f97a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "da2c7d1768accfab13dfd5b5c1c457f570a1b07b96c8fa0f34baf767fc13efa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "a6e6eacd18234001981da4312b5b27f30e56b0f2f34278e89046f1c8d7516fe2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "99d5970b305c9865e7a1fcdeed0ee71cc3701bbc66bec45cf8b0c460e16d9cdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imstb_rectpack.h"
+          },
+          "hashes": {
+            "sha-256": "2efa3d5f7d003c19743b15155dad9f46d9f9fc783a18893d703b431d3c990972"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imstb_truetype.h"
+          },
+          "hashes": {
+            "sha-256": "87f08919ae8e7223451d0e9d06b62829075d3e920c9e6ad436db9d7e7427ffce"
+          }
+        }
+      ]
+    }
+  ]
+}

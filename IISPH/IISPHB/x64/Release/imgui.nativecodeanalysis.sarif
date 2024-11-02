@@ -1,0 +1,449 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferenzierender NULL-Zeiger. \"window->RootWindowForNav\" enthält den gleichen NULL-Wert wie \"parent_window\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 6466,
+                  "startColumn": 12,
+                  "endLine": 6466,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::UpdateWindowParentAndRootLinks",
+                  "decoratedName": "?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6458,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6459,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6460,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "\"parent_window\" kann NULL sein. (Diese Verzweigung überspringen)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6462,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Diese Verzweigung überspringen (Annahme: \"<Verzweigungsbedingung>\" ist false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6464,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Diese Verzweigung überspringen (Annahme: \"<Verzweigungsbedingung>\" ist false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6466,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "Diese Schleife überspringen (Annahme: \"<Verzweigungsbedingung>\" ist false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6469,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6466,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Schleife eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6466,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "\"parent_window\" wird dereferenziert, kann jedoch weiterhin NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferenzierender NULL-Zeiger \"window\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 12202,
+                  "startColumn": 13,
+                  "endLine": 12202,
+                  "endColumn": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::NavCalcPreferredRefPos",
+                  "decoratedName": "?NavCalcPreferredRefPos@ImGui@@YA?AUImVec2@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12179,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12180,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12181,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12184,
+                            "startColumn": 71
+                          }
+                        },
+                        "message": {
+                          "text": "\"window\" kann NULL sein. (Diese Verzweigung überspringen)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12195,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12196,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"activated_shortcut\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12197,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12202,
+                            "startColumn": 53
+                          }
+                        },
+                        "message": {
+                          "text": "Diese Verzweigung überspringen (Annahme: \"<Verzweigungsbedingung>\" ist false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 12202,
+                            "startColumn": 53
+                          }
+                        },
+                        "message": {
+                          "text": "\"window\" wird dereferenziert, kann jedoch weiterhin NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Jakob/Documents/Studium/BachelorArbeit/IISPHB/IISPHB/imgui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "978e499a3f08807cc3214d2b67755162626a752df822fd38e9ca87bdce2b88c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "5dcfaf6e9a1340e5b4d5725b25372d80322e7615c42fd35bdebc24d814e0f97a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "da2c7d1768accfab13dfd5b5c1c457f570a1b07b96c8fa0f34baf767fc13efa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "a6e6eacd18234001981da4312b5b27f30e56b0f2f34278e89046f1c8d7516fe2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakob/documents/studium/bachelorarbeit/iisphb/iisphb/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "99d5970b305c9865e7a1fcdeed0ee71cc3701bbc66bec45cf8b0c460e16d9cdd"
+          }
+        }
+      ]
+    }
+  ]
+}
